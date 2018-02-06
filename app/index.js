@@ -1,4 +1,5 @@
 import _ from 'lodash';
+import $ from 'jquery';
 
 function component(){
     var element = document.createElement('div');
@@ -6,4 +7,5 @@ function component(){
     return element;
 }
 
+$('#test').text('test jQuery');
 document.body.appendChild(component());
